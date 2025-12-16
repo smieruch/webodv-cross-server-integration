@@ -20,6 +20,8 @@ datasets without preprocessing or downloading.*
 In your webbrowser visit https://argo-webodv.vm.fedcloud.eu/, login
 and choose *Ocean->Biogeochemistry->BGC-Argo Global Profiles*. On the
 next page click on *Data Exploration*.  
-Choose *View->Layout Templates->1 SCATTER WINDOW*.
+Choose *View->Load View->public->AllStationsMap*.
+
+![alt text](./step1.png "Global map") 
 
 
