@@ -24,4 +24,15 @@ Choose *View->Load View->public->AllStationsMap*.
 
 ![alt text](./step1.png "Global map") 
 
+## Domain
 
+Right click into the map and choose *Properties*. On the dialog select
+*Domain* and enter *West=197*, *East=207*, *North=25*, *South=18* and
+click on *Apply*.
+
+## Filter Stations
+
+Again, right click into the map and choose *Station
+Filter->Customize*. On the dialog select Domain and enter *West=200*, *East=204*, *North=24*, *South=22*.
+Then, on the dialog, select *Availability* and click on *8. Dissolved Oxygen (adjusted) [umol kg-1]*
+and click on *Apply*.
