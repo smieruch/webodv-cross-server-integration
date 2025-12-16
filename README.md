@@ -1,6 +1,10 @@
 # webodv-cross-server-integration
 Step-by-step tutorial on webODV's cross-server integration function.
 
+In this example we show how to use webODV's cross-server integration -
+the ability to pull in data from multiple servers and overlay them in
+a unified visual and analytical framework.
+
 ![alt text](./oxy_480_520_2.png "webODV cross-server integration") 
 *HOT (station ALOHA, white dot on map) oxygen data between 480 - 520 dbar
 are shown as blue dots with an overlaid black moving average
@@ -11,8 +15,11 @@ ship-based Niskin measurements with autonomous float observations
 demonstrates how webODV facilitates direct comparison of complementary
 datasets without preprocessing or downloading.*
 
+## Open the BGC Argo dataset
+
+In your webbrowser visit https://argo-webodv.vm.fedcloud.eu/, login
+and choose *Ocean->Biogeochemistry->BGC-Argo Global Profiles*. On the
+next page click on *Data Exploration*.  
+Choose *View->Layout Templates->1 SCATTER WINDOW*.
 
 
-In this example we show how to use webODV's cross-server integration -
-the ability to pull in data from multiple servers and overlay them in
-a unified visual and analytical framework.
