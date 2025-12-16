@@ -59,8 +59,13 @@ Filter->Customize*. On the dialog select *Range*. As Variable choose
 *2. Pressure (adjusted) [decibar]* and fill the Acceptable Range from
 *480* to *520*. Click *Apply*. 
 
-## Full range
+## Full Range and Color
 
 Right click into the Scatter Window and choose *Full Range->All*.
+Right click into the Scatter Window and open the *Properties*. Goto
+*Display Style* click into the *Symbol color* box and choose red color
+number *12*. Change the *Symbol size to 12*. Right click into the map
+choose *Properties->Display Style* and select color *12* as well.
 
 ![alt text](./step4.png "Filter Depth") 
+
