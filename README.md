@@ -54,4 +54,13 @@ and choose *8. Dissolved Oxygen (adjusted) [umol kg-1]*.
 
 ## Filter Depth
 
-Right click into the Scatter Window
+Right click into the Scatter Window choose *Sample
+Filter->Customize*. On the dialog select *Range*. As Variable choose
+*2. Pressure (adjusted) [decibar]* and fill the Acceptable Range from
+*480* to *520*. Click *Apply*. 
+
+## Full range
+
+Right click into the Scatter Window and choose *Full Range->All*.
+
+![alt text](./step4.png "Filter Depth") 
