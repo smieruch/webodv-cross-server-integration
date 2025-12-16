@@ -38,3 +38,20 @@ Then, on the dialog, select *Availability* and click on *8. Dissolved Oxygen (ad
 and click on *Apply*. Right click on the black text on the map and click on *Delete Object* to remove the text.
 
 ![alt text](./step2.png "Filter Stations") 
+
+## Create Scatter Window and Derived Variables
+
+Left click into the white area next to the map (the *canvas*). On the
+dialog choose *Layout->Layout Templates->1 SCATTER WINDOW*. Next click
+choose *View->Derived Variables*, on the dialog open the *Time* node
+and select *Time (station date/time)*. Click *Apply*.  
+Right click into the Scatter Window, on the dialog select *X-Variable*
+and choose *drvd: Time (station date/time)*. Repeat for *Y-Variable*
+and choose *8. Dissolved Oxygen (adjusted) [umol kg-1]*.
+
+![alt text](./step3.png "Scatter Window") 
+
+
+## Filter Depth
+
+Right click into the Scatter Window
