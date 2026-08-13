@@ -75,6 +75,17 @@ points and window frame.
 
 Right click into the map
 choose *Properties->Display Style* and select color *12* as well.
+Respective view file: [webodv_xservint_filter.xview](webodv_xservint_filter.xview).
 
 ![alt text](./step4.png "Filter Depth") 
 
+
+## Apply moving average filter
+
+Right click into the scatter window, select *Statistics->Curve Fitting*. On the pop up window select
+*Type->Moving Average*, *Number of grid goints: 30* and *Averaging length scale: 300*. Then click on
+*Construct Curve* and on *Show Curve*. Close the pop up. Right click on the just created moving
+average line and select *Properties*. Choose *Line->thick* and color *22*. Click on *Apply*.
+Respective view file: [webodv_xservint_mv.xview](webodv_xservint_mv.xview).
+
+![alt text](./step5.png "Moving Average") 
