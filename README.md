@@ -36,6 +36,9 @@ Again, right click into the map and choose *Station
 Filter->Customize*. On the dialog select Domain and enter *West=200*, *East=204*, *North=24*, *South=22*.
 Then, on the dialog, select *Availability* and click on *8. Dissolved Oxygen (adjusted) [umol kg-1]*
 and click on *Apply*. Right click on the black text on the map and click on *Delete Object* to remove the text.
+To jump directly into this intermediate state download this *.xview* file:
+[webodv_xservint_filter_stations.xview](https://raw.githubusercontent.com/smieruch/webodv-cross-server-integration/webodv_xservint_filter_stations.xview).
+In webODV go to *View->Manage Resources->Views->Click to select a view for upload* and choose the *.xview* file from your computer.
 
 ![alt text](./step2.png "Filter Stations") 
 
