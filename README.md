@@ -174,10 +174,23 @@ Now we need a trick to make the HOT station data visible. Right click into the m
 choose *Layout->Add Graphics Object->from Clipboard* to copy a graphics object of the data into the
 map. Right click on HOT object data and choose *Fill color: 1*, *Border color: 1* and *Size: 12*.
 
-
+Finally right click into the map and choose *Properties*. On the dialog select
+*Domain* and enter *West=197*, *East=207*, *North=25*, *South=18* and
+click on *Apply*.
 Respective view file: [webodv_xservint_hot_go.xview](webodv_xservint_hot_go.xview).
 
 ![alt text](./hot_step_5.jpg "Copy Graphics Object") 
+
+
+## Change Layout
+
+We are in the HOT view. Right click into the scatter window, select *Set Ranges* and set *Bottle
+Dissolved Oxygen* to *0-200*. Click on Apply. Right click again and select *Layout->Move / Resize Window*.
+A red border appears around the scatter window where you can drag the edges to change the Layout.
+Do the same with the map and place the map inside the scatter window. 
+Respective view file: [webodv_xservint_hot_layout.xview](webodv_xservint_hot_layout.xview).
+
+![alt text](./hot_step_6.jpg "Change Layout") 
 
 
 
