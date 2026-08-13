@@ -193,6 +193,33 @@ Respective view file: [webodv_xservint_hot_layout.xview](webodv_xservint_hot_lay
 ![alt text](./hot_step_6.jpg "Change Layout") 
 
 
+## Legend
 
+We want to create a legend in the HOT view. Right click into the free area of the scatter
+plot. Choose *Layout->Add Graphics Object->Symbol*. The cursor changes to a cross. Click into the
+upper right area of the plot to add a symbol. On the dialog choose *Fill color: 1* and *Border
+color: 1* and *Size: 40*. Click on *Apply*. Right click on the blue dot. Open *Properties*. Set
+*Position X:2014, Y:190*. Click on Apply. Do it again, now for a red (color 12) dot and place the
+red dot at *Position X:2014, Y:180*.
+
+Next create a short line via a same procedure *Add Graphics Object*. Make the line *thick* and place
+it via drag and drop below the dot symbols. Use color *22*. Then copy the line via right click *Copy
+Object*. Place the new line below the existing line via drag and drop. Choose color *0*. 
+
+We have now the needed symbols.
+Respective view file: [webodv_xservint_hot_legend_symbols.xview](webodv_xservint_hot_legend_symbols.xview).
+
+![alt text](./hot_step_7.jpg "Legend symbols") 
+
+Now we need the respective texts. Again we use *Add Graphics Object* to add *Annotations*. The first
+word *HOT* should be placed at *Position X:2016, Y:190* with *Alignment X: left, Y: center*. Text
+size is *14*. The next word *BGC-Argo* should be placed at *Position X:2016, Y:180* with *Alignment
+X: left, Y: center*.  The next words should be placed similarly. Maybe the line positions have to be
+adjusted by drag and drop.  Finally we add a rectangle via *Add Graphics Object*. It appears in the
+center of the plot and can be moved and scaled. We move it over our legend as a box. As *Fill color*
+we choose white *15* and line *thin medium*. Then right click into the box and select *Move to Background*.
+Respective view file: [webodv_xservint_final.xview](webodv_xservint_final.xview).
+
+![alt text](./hot_step_8.jpg "Final") 
 
 
