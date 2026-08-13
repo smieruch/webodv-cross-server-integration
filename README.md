@@ -110,7 +110,7 @@ from *Jan 01 1990* to *Dec 12 99999*. Click on *Meta Data*, under *Text Meta Var
 Dissolved Oxygen*. Click on *Apply*.
 Respective view file: [webodv_xservint_hot_filter.xview](webodv_xservint_hot_filter.xview).
 
-![alt text](./hot_step_1.png "Filter") 
+![alt text](./hot_step_1.jpg "Filter") 
 
 ## Scatter plot
 
@@ -124,7 +124,7 @@ and choose *drvd: Time (station date/time)*. Repeat for *Y-Variable*
 and choose *9. Bottle Dissolved Oxygen [umol/kg]*.
 Respective view file: [webodv_xservint_hot_scatter.xview](webodv_xservint_hot_scatter.xview).
 
-![alt text](./hot_step_2.png "Scatter") 
+![alt text](./hot_step_2.jpg "Scatter") 
 
 
 
