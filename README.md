@@ -102,7 +102,7 @@ Exploration* on the next page, or click directly on
 https://hot.webodv.awi.de/public/discrete_water_column/discrete_water_column.
 Choose *View->Load View->public->Default*. 
 
-## Filter
+## Filter stations
 
 Right click on the map, choose *Station Filter->Customize*. Click on *Date/Time* select *Period*
 from *Jan 01 1990* to *Dec 12 99999*. Click on *Meta Data*, under *Text Meta Variables* choose
@@ -125,6 +125,17 @@ and choose *9. Bottle Dissolved Oxygen [umol/kg]*.
 Respective view file: [webodv_xservint_hot_scatter.xview](webodv_xservint_hot_scatter.xview).
 
 ![alt text](./hot_step_2.jpg "Scatter") 
+
+## Filter data
+
+Right click into the scatter plot. Choose *Sample Filter->Customize*. On the pop up, select
+*Range*. Under *Variable* choose *2: CTD Pressure* and type into *Acceptable Range* *480-520*. Click
+on *Apply*. Right click and select *Properties*. Click on *Display Style* and change *Symbol size*
+to *12* and *Symbol color* to *1*. Click *Apply*.
+Respective view file: [webodv_xservint_hot_filter_data.xview](webodv_xservint_hot_filter_data.xview).
+
+![alt text](./hot_step_3.jpg "Filter data") 
+
 
 
 
