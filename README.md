@@ -15,12 +15,17 @@ ship-based Niskin measurements with autonomous float observations
 demonstrates how webODV facilitates direct comparison of complementary
 datasets without preprocessing or downloading.*
 
-## Open the BGC Argo dataset
+# Open the BGC Argo dataset
 
-In your webbrowser visit https://argo-webodv.vm.fedcloud.eu/, login
-and choose *Ocean->Biogeochemistry->BGC-Argo Global Profiles*. On the
+In your webbrowser visit https://argo-webodv.vm.fedcloud.eu, and choose
+*Ocean->Biogeochemistry->BGC-Argo Global Profiles*, or directly
+https://argo-webodv.vm.fedcloud.eu/public/ocean/biogeochemistry/bgc-argo_global_profiles.
+On the
 next page click on *Data Exploration*.  
-Choose *View->Load View->public->AllStationsMap*.
+Choose *View->Load View->public->AllStationsMap*.  Consider to save your work regularly via right
+click on the canvas (white area) and select *Save View As*. Note that the view is saved in your
+Browsers cache. To have a real back up, download the view via *View->Manage Resources->Views*, click
+on the respective view and on *Download*.
 
 ![alt text](./step1.png "Global map") 
 
@@ -89,3 +94,23 @@ average line and select *Properties*. Choose *Line->thick* and color *22*. Click
 Respective view file: [webodv_xservint_mv.xview](webodv_xservint_mv.xview).
 
 ![alt text](./step5.png "Moving Average") 
+
+# HOT
+
+Now go to https://hot.webodv.awi.de, choose the *Discrete Water Column* dataset, and click on *Data
+Exploration* on the next page, or click directly on
+https://hot.webodv.awi.de/public/discrete_water_column/discrete_water_column.
+Choose *View->Load View->public->Default*. 
+
+## Filter
+
+Right click on the map, choose *Station Filter->Customize*. Click on *Date/Time* select *Period*
+from *Jan 01 1990* to *Dec 12 99999*. Click on *Meta Data*, under *Text Meta Variables* choose
+*Site* and type *ALOHA* into the text field. Then click on *Availability* and select *9. Bottle
+Dissolved Oxygen*. Click on *Apply*.
+Respective view file: [webodv_xservint_hot_filter.xview](webodv_xservint_hot_filter.xview).
+
+![alt text](./hot_step_1.png "Filter") 
+
+
+
