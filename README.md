@@ -5,7 +5,7 @@ In this example we show how to use webODV's cross-server integration -
 the ability to pull in data from multiple servers and overlay them in
 a unified visual and analytical framework.
 
-![alt text](./oxy_480_520_2.png "webODV cross-server integration") 
+![alt text](./hot_step_8.jpg "Final") 
 *HOT (station ALOHA, white dot on map) oxygen data between 480 - 520 dbar
 are shown as blue dots with an overlaid black moving average
 line. Individual BGC Argo oxygen data (red dots on map) for the same
