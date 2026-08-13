@@ -49,8 +49,8 @@ In webODV go to *View->Manage Resources->Views->Click to select a view for uploa
 
 ## Create Scatter Window and Derived Variables
 
-Left click into the white area next to the map (the *canvas*). On the
-dialog choose *Layout->Layout Templates->1 SCATTER WINDOW*. Next click
+Right click into the white area next to the map (the *canvas*). On the
+dialog choose *Layout->Layout Templates->1 SCATTER WINDOW*. Next
 choose *View->Derived Variables*, on the dialog open the *Time* node
 and select *Time (station date/time)*. Click *Apply*.  
 Right click into the Scatter Window, on the dialog select *X-Variable*
@@ -111,6 +111,21 @@ Dissolved Oxygen*. Click on *Apply*.
 Respective view file: [webodv_xservint_hot_filter.xview](webodv_xservint_hot_filter.xview).
 
 ![alt text](./hot_step_1.png "Filter") 
+
+## Scatter plot
+
+Similar to above we create a scatter plot.
+Right click into the white area next to the map (the *canvas*). On the
+dialog choose *Layout->Layout Templates->1 SCATTER WINDOW*. Next 
+choose *View->Derived Variables*, on the dialog open the *Time* node
+and select *Time (station date/time)*. Click *Apply*.  
+Right click into the Scatter Window, on the dialog select *X-Variable*
+and choose *drvd: Time (station date/time)*. Repeat for *Y-Variable*
+and choose *9. Bottle Dissolved Oxygen [umol/kg]*.
+Respective view file: [webodv_xservint_hot_scatter.xview](webodv_xservint_hot_scatter.xview).
+
+![alt text](./hot_step_2.png "Scatter") 
+
 
 
 
