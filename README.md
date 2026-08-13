@@ -98,7 +98,8 @@ Respective view file: [webodv_xservint_mv.xview](webodv_xservint_mv.xview).
 
 # HOT
 
-Now go to https://hot.webodv.awi.de, choose the *Discrete Water Column* dataset, and click on *Data
+Keep the webODV Argo view open in the Browser tab. Open a new Browser tab and
+go to https://hot.webodv.awi.de, choose the *Discrete Water Column* dataset, and click on *Data
 Exploration* on the next page, or click directly on
 https://hot.webodv.awi.de/public/discrete_water_column/discrete_water_column.
 Choose *View->Load View->public->Default*. 
@@ -148,6 +149,20 @@ Respective view file: [webodv_xservint_hot_mv.xview](webodv_xservint_hot_mv.xvie
 
 ![alt text](./hot_step_4.jpg "Moving Average") 
 
+
+## Copy graphics objects
+
+Go back to the Argo webODV and open the last view [webodv_xservint_mv.xview](webodv_xservint_mv.xview).
+Right click into the scatter window. Select *Extras->Export as Graphics Object->Sample Dots->to
+Clipboard*. A success dialog appears, click on *Close*. 
+
+Go back into the latest HOT view, right click into the scatter window and select *Layout->Add
+Graphics Object->from Clipboard*. The Argo data appears. Right click on the Argo data to open the
+object *Properties*. Choose *Fill color: 12* and *Border color: 12*. Click on Apply. Then right click on
+the HOT moving average line, select *Move to Foreground*.
+Respective view file: [webodv_xservint_hot_go.xview](webodv_xservint_hot_go.xview).
+
+![alt text](./hot_step_5.jpg "Copy Graphics Object") 
 
 
 
