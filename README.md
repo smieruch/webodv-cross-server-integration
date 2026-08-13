@@ -160,6 +160,21 @@ Go back into the latest HOT view, right click into the scatter window and select
 Graphics Object->from Clipboard*. The Argo data appears. Right click on the Argo data to open the
 object *Properties*. Choose *Fill color: 12* and *Border color: 12*. Click on Apply. Then right click on
 the HOT moving average line, select *Move to Foreground*.
+
+Now we go back to the Argo view to copy the moving average line. Right click on the moving average
+line and select *Export Object->to Clipboard*. Back in HOT, right click into the free area in the
+scatter window and select *Layout->Add Graphics Object->from Clipboard*.
+
+Again in the Argo webODV, right click into the map and select *Extras->Export as Graphics
+Object->Station Dots->to Clipboard*. Go back to HOT, right click into the map and choose
+*Layout->Add Graphics Object->from Clipboard*.
+
+Now we need a trick to make the HOT station data visible. Right click into the map and select
+*Extras->Export as Graphics Object->Station Dots->to Clipboard*. Again right click into the map and
+choose *Layout->Add Graphics Object->from Clipboard* to copy a graphics object of the data into the
+map. Right click on HOT object data and choose *Fill color: 1*, *Border color: 1* and *Size: 12*.
+
+
 Respective view file: [webodv_xservint_hot_go.xview](webodv_xservint_hot_go.xview).
 
 ![alt text](./hot_step_5.jpg "Copy Graphics Object") 
