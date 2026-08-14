@@ -5,7 +5,7 @@ In this example we show how to use webODV's cross-server integration -
 the ability to pull in data from multiple servers and overlay them in
 a unified visual and analytical framework.
 
-![alt text](./hot_step_8.jpg "Final") 
+![alt text](./img/hot_step_8.jpg "Final") 
 *HOT (station ALOHA, white dot on map) oxygen data between 480 - 520 dbar
 are shown as blue dots with an overlaid black moving average
 line. Individual BGC Argo oxygen data (red dots on map) for the same
@@ -27,7 +27,7 @@ click on the canvas (white area) and select *Save View As*. Note that the view i
 Browsers cache. To have a real back up, download the view via *View->Manage Resources->Views*, click
 on the respective view and on *Download*.
 
-![alt text](./step1.png "Global map") 
+![alt text](./img/step1.png "Global map") 
 
 ## Domain
 
@@ -42,10 +42,10 @@ Filter->Customize*. On the dialog select Domain and enter *West=200*, *East=204*
 Then, on the dialog, select *Availability* and click on *8. Dissolved Oxygen (adjusted) [umol kg-1]*
 and click on *Apply*. Right click on the black text on the map and click on *Delete Object* to remove the text.
 To jump directly into this intermediate state download this *.xview* file:
-[webodv_xservint_filter_stations.xview](webodv_xservint_filter_stations.xview).
+[webodv_xservint_filter_stations.xview](./xviews/webodv_xservint_filter_stations.xview).
 In webODV go to *View->Manage Resources->Views->Click to select a view for upload* and choose the *.xview* file from your computer.
 
-![alt text](./step2.png "Filter Stations") 
+![alt text](./img/step2.png "Filter Stations") 
 
 ## Create Scatter Window and Derived Variables
 
@@ -56,9 +56,9 @@ and select *Time (station date/time)*. Click *Apply*.
 Right click into the Scatter Window, on the dialog select *X-Variable*
 and choose *drvd: Time (station date/time)*. Repeat for *Y-Variable*
 and choose *8. Dissolved Oxygen (adjusted) [umol kg-1]*.
-Use this *.xview* to access the plot immediately: [webodv_xservint_scatter.xview](webodv_xservint_scatter.xview).
+Use this *.xview* to access the plot immediately: [webodv_xservint_scatter.xview](./xviews/webodv_xservint_scatter.xview).
 
-![alt text](./step3.png "Scatter Window") 
+![alt text](./img/step3.png "Scatter Window") 
 
 
 ## Filter Depth
@@ -80,9 +80,9 @@ points and window frame.
 
 Right click into the map
 choose *Properties->Display Style* and select color *12* as well.
-Respective view file: [webodv_xservint_filter.xview](webodv_xservint_filter.xview).
+Respective view file: [webodv_xservint_filter.xview](./xviews/webodv_xservint_filter.xview).
 
-![alt text](./step4.png "Filter Depth") 
+![alt text](./img/step4.png "Filter Depth") 
 
 
 ## Apply moving average filter
@@ -91,9 +91,9 @@ Right click into the scatter window, select *Statistics->Curve Fitting*. On the 
 *Type->Moving Average*, *Number of grid goints: 30* and *Averaging length scale: 300*. Then click on
 *Construct Curve* and on *Show Curve*. Close the pop up. Right click on the just created moving
 average line and select *Properties*. Choose *Line->thick* and color *22*. Click on *Apply*.
-Respective view file: [webodv_xservint_mv.xview](webodv_xservint_mv.xview).
+Respective view file: [webodv_xservint_mv.xview](./xviews/webodv_xservint_mv.xview).
 
-![alt text](./step5.png "Moving Average") 
+![alt text](./img/step5.png "Moving Average") 
 
 
 # HOT
@@ -110,9 +110,9 @@ Right click on the map, choose *Station Filter->Customize*. Click on *Date/Time*
 from *Jan 01 1990* to *Dec 12 99999*. Click on *Meta Data*, under *Text Meta Variables* choose
 *Site* and type *ALOHA* into the text field. Then click on *Availability* and select *9. Bottle
 Dissolved Oxygen*. Click on *Apply*.
-Respective view file: [webodv_xservint_hot_filter.xview](webodv_xservint_hot_filter.xview).
+Respective view file: [webodv_xservint_hot_filter.xview](./xviews/webodv_xservint_hot_filter.xview).
 
-![alt text](./hot_step_1.jpg "Filter") 
+![alt text](./img/hot_step_1.jpg "Filter") 
 
 ## Scatter plot
 
@@ -124,9 +124,9 @@ and select *Time (station date/time)*. Click *Apply*.
 Right click into the Scatter Window, on the dialog select *X-Variable*
 and choose *drvd: Time (station date/time)*. Repeat for *Y-Variable*
 and choose *9. Bottle Dissolved Oxygen [umol/kg]*.
-Respective view file: [webodv_xservint_hot_scatter.xview](webodv_xservint_hot_scatter.xview).
+Respective view file: [webodv_xservint_hot_scatter.xview](./xviews/webodv_xservint_hot_scatter.xview).
 
-![alt text](./hot_step_2.jpg "Scatter") 
+![alt text](./img/hot_step_2.jpg "Scatter") 
 
 ## Filter data
 
@@ -134,9 +134,9 @@ Right click into the scatter plot. Choose *Sample Filter->Customize*. On the pop
 *Range*. Under *Variable* choose *2: CTD Pressure* and type into *Acceptable Range* *480-520*. Click
 on *Apply*. Right click and select *Properties*. Click on *Display Style* and change *Symbol size*
 to *12* and *Symbol color* to *1*. Click *Apply*.
-Respective view file: [webodv_xservint_hot_filter_data.xview](webodv_xservint_hot_filter_data.xview).
+Respective view file: [webodv_xservint_hot_filter_data.xview](./xviews/webodv_xservint_hot_filter_data.xview).
 
-![alt text](./hot_step_3.jpg "Filter data") 
+![alt text](./img/hot_step_3.jpg "Filter data") 
 
 
 ## Apply moving average filter
@@ -145,14 +145,14 @@ Right click into the scatter window, select *Statistics->Curve Fitting*. On the 
 *Type->Moving Average*, *Number of grid goints: 30* and *Averaging length scale: 300*. Then click on
 *Construct Curve* and on *Show Curve*. Close the pop up. Right click on the just created moving
 average line and select *Properties*. Choose *Line->thick* and color *0*. Click on *Apply*.
-Respective view file: [webodv_xservint_hot_mv.xview](webodv_xservint_hot_mv.xview).
+Respective view file: [webodv_xservint_hot_mv.xview](./xviews/webodv_xservint_hot_mv.xview).
 
-![alt text](./hot_step_4.jpg "Moving Average") 
+![alt text](./img/hot_step_4.jpg "Moving Average") 
 
 
 ## Copy graphics objects
 
-Go back to the Argo webODV and open the last view [webodv_xservint_mv.xview](webodv_xservint_mv.xview).
+Go back to the Argo webODV and open the last view [webodv_xservint_mv.xview](./xviews/webodv_xservint_mv.xview).
 Right click into the scatter window. Select *Extras->Export as Graphics Object->Sample Dots->to
 Clipboard*. A success dialog appears, click on *Close*. 
 
@@ -177,9 +177,9 @@ map. Right click on HOT object data and choose *Fill color: 1*, *Border color: 1
 Finally right click into the map and choose *Properties*. On the dialog select
 *Domain* and enter *West=197*, *East=207*, *North=25*, *South=18* and
 click on *Apply*.
-Respective view file: [webodv_xservint_hot_go.xview](webodv_xservint_hot_go.xview).
+Respective view file: [webodv_xservint_hot_go.xview](./xviews/webodv_xservint_hot_go.xview).
 
-![alt text](./hot_step_5.jpg "Copy Graphics Object") 
+![alt text](./img/hot_step_5.jpg "Copy Graphics Object") 
 
 
 ## Change Layout
@@ -188,9 +188,9 @@ We are in the HOT view. Right click into the scatter window, select *Set Ranges*
 Dissolved Oxygen* to *0-200*. Click on Apply. Right click again and select *Layout->Move / Resize Window*.
 A red border appears around the scatter window where you can drag the edges to change the Layout.
 Do the same with the map and place the map inside the scatter window. 
-Respective view file: [webodv_xservint_hot_layout.xview](webodv_xservint_hot_layout.xview).
+Respective view file: [webodv_xservint_hot_layout.xview](./xviews/webodv_xservint_hot_layout.xview).
 
-![alt text](./hot_step_6.jpg "Change Layout") 
+![alt text](./img/hot_step_6.jpg "Change Layout") 
 
 
 ## Legend
@@ -207,9 +207,9 @@ it via drag and drop below the dot symbols. Use color *22*. Then copy the line v
 Object*. Place the new line below the existing line via drag and drop. Choose color *0*. 
 
 We have now the needed symbols.
-Respective view file: [webodv_xservint_hot_legend_symbols.xview](webodv_xservint_hot_legend_symbols.xview).
+Respective view file: [webodv_xservint_hot_legend_symbols.xview](./xviews/webodv_xservint_hot_legend_symbols.xview).
 
-![alt text](./hot_step_7.jpg "Legend symbols") 
+![alt text](./img/hot_step_7.jpg "Legend symbols") 
 
 Now we need the respective texts. Again we use *Add Graphics Object* to add *Annotations*. The first
 word *HOT* should be placed at *Position X:2016, Y:190* with *Alignment X: left, Y: center*. Text
@@ -218,8 +218,8 @@ X: left, Y: center*.  The next words should be placed similarly. Maybe the line 
 adjusted by drag and drop.  Finally we add a rectangle via *Add Graphics Object*. It appears in the
 center of the plot and can be moved and scaled. We move it over our legend as a box. As *Fill color*
 we choose white *15* and line *thin medium*. Then right click into the box and select *Move to Background*.
-Respective view file: [webodv_xservint_final.xview](webodv_xservint_final.xview).
+Respective view file: [webodv_xservint_final.xview](./xviews/webodv_xservint_final.xview).
 
-![alt text](./hot_step_8.jpg "Final") 
+![alt text](./img/hot_step_8.jpg "Final") 
 
 
