@@ -133,7 +133,7 @@ Respective view file: [webodv_xservint_hot_scatter.xview](./xviews/webodv_xservi
 Right click into the scatter plot. Choose *Sample Filter->Customize* (*SHIFT+S*). On the pop up,
 select *Range*. Under *Variable* choose *2: CTD Pressure* and type into *Acceptable Range*
 *480-520*.  Then select *Quality*, variable *9. Bottle Dissolved Oxygen [umol/kg]* and choose as
-Accepted Quality Flag *0: good data*. Click on *Apply*. Right click and select *Properties*. Click
+Accepted Quality Flag *0: good data*. Click on *Apply*. Right click and select *Properties* (*ALT+P*). Click
 on *Display Style* and change *Symbol size* to *12* and *Symbol color* to *1*. Click *Apply*.
 Respective view file:
 [webodv_xservint_hot_filter_data.xview](./xviews/webodv_xservint_hot_filter_data.xview).
@@ -176,7 +176,7 @@ Now we need a trick to make the HOT station data visible. Right click into the m
 choose *Layout->Add Graphics Object->from Clipboard* to copy a graphics object of the data into the
 map. Right click on HOT object data and choose *Fill color: 1*, *Border color: 1* and *Size: 12*.
 
-Finally right click into the map and choose *Properties*. On the dialog select
+Finally right click into the map and choose *Properties* (*ALT+P*). On the dialog select
 *Domain* and enter *West=197*, *East=207*, *North=25*, *South=18* and
 click on *Apply*.
 Respective view file: [webodv_xservint_hot_go.xview](./xviews/webodv_xservint_hot_go.xview).
@@ -186,8 +186,8 @@ Respective view file: [webodv_xservint_hot_go.xview](./xviews/webodv_xservint_ho
 
 ## Change Layout
 
-We are in the HOT view. Right click into the scatter window, select *Set Ranges* and set *Bottle
-Dissolved Oxygen* to *0-200*. Click on Apply. Right click again and select *Layout->Move / Resize Window*.
+We are in the HOT view. Right click into the scatter window, select *Set Ranges* (*ALT+R*) and set *Bottle
+Dissolved Oxygen* to *0-200*. Click on Apply. Right click again and select *Layout->Move / Resize Window* (*CTRL+R*).
 A red border appears around the scatter window where you can drag the edges to change the Layout.
 Do the same with the map and place the map inside the scatter window. 
 Respective view file: [webodv_xservint_hot_layout.xview](./xviews/webodv_xservint_hot_layout.xview).
@@ -216,10 +216,10 @@ Respective view file: [webodv_xservint_hot_legend_symbols.xview](./xviews/webodv
 Now we need the respective texts. Again we use *Add Graphics Object* to add *Annotations*. The first
 word *HOT* should be placed at *Position X:2016, Y:190* with *Alignment X: left, Y: center*. Text
 size is *14*. The next word *BGC-Argo* should be placed at *Position X:2016, Y:180* with *Alignment
-X: left, Y: center*.  The next words should be placed similarly. Maybe the line positions have to be
+X: left, Y: center*.  The next words should be placed similarly with *Y:170* and *Y:160*. Maybe the line positions have to be
 adjusted by drag and drop.  Finally we add a rectangle via *Add Graphics Object*. It appears in the
 center of the plot and can be moved and scaled. We move it over our legend as a box. As *Fill color*
-we choose white *15* and line *thin medium*. Then right click into the box and select *Move to Background*.
+we choose white *15* and line *thin medium*. Then right click on the black rectangle line and select *Move to Background*.
 Respective view file: [webodv_xservint_final.xview](./xviews/webodv_xservint_final.xview).
 
 ![alt text](./img/hot_step_8.jpg "Final") 
