@@ -133,7 +133,7 @@ Respective view file: [webodv_xservint_hot_scatter.xview](./xviews/webodv_xservi
 Right click into the scatter plot. Choose *Sample Filter->Customize* (*SHIFT+S*). On the pop up,
 select *Range*. Under *Variable* choose *2: CTD Pressure* and type into *Acceptable Range*
 *480-520*.  Then select *Quality*, variable *9. Bottle Dissolved Oxygen [umol/kg]* and choose as
-Accepted Quality Flag *0: good data*. Click on *Apply*. Right click and select *Properties*. Click
+Accepted Quality Flag *0: good data*. Click on *Apply*. Right click and select *Properties* (*ALT+P*). Click
 on *Display Style* and change *Symbol size* to *12* and *Symbol color* to *1*. Click *Apply*.
 Respective view file:
 [webodv_xservint_hot_filter_data.xview](./xviews/webodv_xservint_hot_filter_data.xview).
