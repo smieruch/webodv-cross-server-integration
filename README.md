@@ -31,29 +31,29 @@ on the respective view and on *Download*.
 
 ## Domain
 
-Right click into the map and choose *Properties*. On the dialog select
+Right click into the map and choose *Properties*, or use the keyboard shortcut *ALT+P*. On the dialog select
 *Domain* and enter *West=197*, *East=207*, *North=25*, *South=18* and
 click on *Apply*.
 
 ## Filter Stations
 
 Again, right click into the map and choose *Station
-Filter->Customize*. On the dialog select Domain and enter *West=200*, *East=204*, *North=24*, *South=22*.
+Filter->Customize* (*ALT+S*). On the dialog select Domain and enter *West=200*, *East=204*, *North=24*, *South=22*.
 Then, on the dialog, select *Availability* and click on *8. Dissolved Oxygen (adjusted) [umol kg-1]*
 and click on *Apply*. Right click on the black text on the map and click on *Delete Object* to remove the text.
-To jump directly into this intermediate state download this *.xview* file:
+To jump directly into this intermediate state, download this *.xview* file:
 [webodv_xservint_filter_stations.xview](./xviews/webodv_xservint_filter_stations.xview).
-In webODV go to *View->Manage Resources->Views->Click to select a view for upload* and choose the *.xview* file from your computer.
+Then in webODV go to *View->Manage Resources->Views->Click to select a view for upload* and choose the *.xview* file from your computer.
 
 ![alt text](./img/step2.png "Filter Stations") 
 
 ## Create Scatter Window and Derived Variables
 
-Right click into the white area next to the map (the *canvas*). On the
-dialog choose *Layout->Layout Templates->1 SCATTER WINDOW*. Next
-choose *View->Derived Variables*, on the dialog open the *Time* node
+Right click into the white area next to the map (the *canvas*). On the dialog choose *Layout->Layout
+Templates->1 SCATTER WINDOW*, or click on the *+* in the top menu bar and choose the *1 SCATTER
+WINDOW*. Next choose *View->Derived Variables* (*ALT+D*), on the dialog open the *Time* node
 and select *Time (station date/time)*. Click *Apply*.  
-Right click into the Scatter Window, on the dialog select *X-Variable*
+Right click into the Scatter Window, on the dialog select *X-Variable* (or *X* on the keyboard)
 and choose *drvd: Time (station date/time)*. Repeat for *Y-Variable*
 and choose *8. Dissolved Oxygen (adjusted) [umol kg-1]*.
 Use this *.xview* to access the plot immediately: [webodv_xservint_scatter.xview](./xviews/webodv_xservint_scatter.xview).
@@ -61,12 +61,12 @@ Use this *.xview* to access the plot immediately: [webodv_xservint_scatter.xview
 ![alt text](./img/step3.png "Scatter Window") 
 
 
-## Filter Depth
+## Filter Depth and Outliers
 
-Right click into the Scatter Window choose *Sample
-Filter->Customize*. On the dialog select *Range*. As Variable choose
-*2. Pressure (adjusted) [decibar]* and fill the Acceptable Range from
-*480* to *520*. Click *Apply*. 
+Right click into the Scatter Window choose *Sample Filter->Customize*. On the dialog select
+*Range*. As Variable choose *2. Pressure (adjusted) [decibar]* and fill the Acceptable Range from
+*480* to *520*. Then select *Quality*, variable *8. Dissolved Oxygen (adjusted) [umol kg-1]* and
+choose as Accepted Quality Flag *1: good data*.  Click *Apply*.
 
 ## Full Range, Color and Zoom
 
