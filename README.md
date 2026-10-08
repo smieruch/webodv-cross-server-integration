@@ -1,6 +1,6 @@
 # webodv-cross-server-integration
 
-[![DOI](https://zenodo.org/badge/DOI/CONCEPT_DOI.svg)](https://doi.org/10.5281/zenodo.23233435)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23233435.svg)](https://doi.org/10.5281/zenodo.23233435)
 
 Step-by-step tutorial on webODV's cross-server integration function.
 
