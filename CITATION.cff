@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this tutorial, please cite it as below."
+
+title: "webODV Cross-Server-Integration"
+
+authors:
+  - family-names: "Mieruch"
+    given-names: "Sebastian"
+    orcid: "https://orcid.org/0000-0003-1150-221X"
+    affiliation: "Alfred Wegener Institute, Helmholtz Centre for Polar and Marine Research (AWI)"
+
+repository-code: "https://github.com/smieruch/webodv-cross-server-integration"
+
+license: "CC-BY-4.0"
+
+abstract: >
+  Step-by-step tutorial on webODV's cross-server integration function.	
+
+keywords:
+  - HOT
+  - webODV
+  - Argo
+  - BGC Argo
+  - oceanography
+  - data visualization
+  - tutorial
