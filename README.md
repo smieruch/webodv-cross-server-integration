@@ -91,10 +91,22 @@ Respective view file: [webodv_xservint_filter.xview](./xviews/webodv_xservint_fi
 ## Apply moving average filter
 
 Right click into the scatter window, select *Statistics->Curve Fitting*. On the pop up window select
-*Type->Moving Average*, *Number of grid goints: 30* and *Averaging length scale: 300*. Then click on
+*Type->Moving Average*, *Number of grid goints: 30* and *Averaging length scale: 435*. Then click on
 *Construct Curve* and on *Show Curve*. Close the pop up. Right click on the just created moving
 average line and select *Properties*. Choose *Line->thick* and color *22*. Click on *Apply*.
 Respective view file: [webodv_xservint_mv.xview](./xviews/webodv_xservint_mv.xview).
+
+The ODV averaging length scale (in per mille) is calculated as:
+
+$$
+L = \frac{T_{\mathrm{window}}}{T_{\mathrm{total}}} \times 1000
+$$
+
+For a characteristic smoothing timescale of 10 years:
+
+- **BGC-Argo (2002–2025):** $L = 435$ ‰
+
+30 grid points are used to construct the curve.
 
 ![alt text](./img/step5.png "Moving Average") 
 
@@ -147,10 +159,23 @@ Respective view file:
 ## Apply moving average filter
 
 Right click into the scatter window, select *Statistics->Curve Fitting*. On the pop up window select
-*Type->Moving Average*, *Number of grid goints: 30* and *Averaging length scale: 300*. Then click on
+*Type->Moving Average*, *Number of grid goints: 30* and *Averaging length scale: 286*. Then click on
 *Construct Curve* and on *Show Curve*. Close the pop up. Right click on the just created moving
 average line and select *Properties*. Choose *Line->thick* and color *0*. Click on *Apply*.
 Respective view file: [webodv_xservint_hot_mv.xview](./xviews/webodv_xservint_hot_mv.xview).
+
+The ODV averaging length scale (in per mille) is calculated as:
+
+$$
+L = \frac{T_{\mathrm{window}}}{T_{\mathrm{total}}} \times 1000
+$$
+
+For a characteristic smoothing timescale of 10 years:
+
+- **HOT (1990–2025):** $L = 286$ ‰
+
+30 grid points are used to construct the curve.
+
 
 ![alt text](./img/hot_step_4.jpg "Moving Average") 
 
@@ -190,7 +215,7 @@ Respective view file: [webodv_xservint_hot_go.xview](./xviews/webodv_xservint_ho
 ## Change Layout
 
 We are in the HOT view. Right click into the scatter window, select *Set Ranges* (*ALT+R*) and set *Bottle
-Dissolved Oxygen* to *0-200*. Click on Apply. Right click again and select *Layout->Move / Resize Window* (*CTRL+R*).
+Dissolved Oxygen* to *0-200* and *Time* to *1990-2025* . Click on Apply. Right click again and select *Layout->Move / Resize Window* (*CTRL+R*).
 A red border appears around the scatter window where you can drag the edges to change the Layout.
 Do the same with the map and place the map inside the scatter window. 
 Respective view file: [webodv_xservint_hot_layout.xview](./xviews/webodv_xservint_hot_layout.xview).
