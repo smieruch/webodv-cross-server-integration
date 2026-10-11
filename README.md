@@ -74,6 +74,8 @@ choose as Accepted Quality Flag *1: good data*.  Click *Apply*.
 ## Full Range, Color and Zoom
 
 Right click into the Scatter Window and choose *Full Range->All*.
+Right click into the scatter window, select *Set Ranges* (*ALT+R*) and set 
+*Time* to *2002-2025* . Click on Apply.
 Right click into the Scatter Window and open the *Properties*. Goto
 *Display Style* click into the *Symbol color* box and choose red color
 number *12*. Change the *Symbol size to 12*. Click *Apply*.  Right
