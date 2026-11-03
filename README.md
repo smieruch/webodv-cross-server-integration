@@ -101,12 +101,17 @@ Respective view file: [webodv_xservint_mv.xview](./xviews/webodv_xservint_mv.xvi
 The ODV averaging length scale (in per mille) is calculated as:
 
 $$
-L = \frac{T_{\mathrm{window}}}{T_{\mathrm{total}}} \times 1000
+\ell = \frac{L}{x_{max}-x{min}} \times 1000
 $$
 
 For a characteristic smoothing timescale of 10 years:
 
-- **BGC-Argo (2002–2025):** $L = 435$ ‰
+$$
+\ell = \frac{10}{2025-2002} \times 1000 \approx 435
+$$
+
+
+- **BGC-Argo (2002–2025):** $\ell = 435$ ‰
 
 30 grid points are used to construct the curve.
 
@@ -169,8 +174,15 @@ Respective view file: [webodv_xservint_hot_mv.xview](./xviews/webodv_xservint_ho
 The ODV averaging length scale (in per mille) is calculated as:
 
 $$
-L = \frac{T_{\mathrm{window}}}{T_{\mathrm{total}}} \times 1000
+\ell = \frac{L}{x_{max}-x{min}} \times 1000
 $$
+
+For a characteristic smoothing timescale of 10 years:
+
+$$
+\ell = \frac{10}{2025-1990} \times 1000 \approx 286
+$$
+
 
 For a characteristic smoothing timescale of 10 years:
 
