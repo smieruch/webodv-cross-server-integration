@@ -184,8 +184,6 @@ $$
 $$
 
 
-For a characteristic smoothing timescale of 10 years:
-
 - **HOT (1990–2025):** $\ell = 286$ ‰
 
 30 grid points are used to construct the curve.
