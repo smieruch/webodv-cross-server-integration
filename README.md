@@ -101,7 +101,7 @@ Respective view file: [webodv_xservint_mv.xview](./xviews/webodv_xservint_mv.xvi
 The ODV averaging length scale (in per mille) is calculated as:
 
 $$
-\ell = \frac{L}{x_{max}-x{min}} \times 1000
+\ell = \frac{L}{x_{max}-x_{min}} \times 1000
 $$
 
 For a characteristic smoothing timescale of 10 years:
@@ -174,7 +174,7 @@ Respective view file: [webodv_xservint_hot_mv.xview](./xviews/webodv_xservint_ho
 The ODV averaging length scale (in per mille) is calculated as:
 
 $$
-\ell = \frac{L}{x_{max}-x{min}} \times 1000
+\ell = \frac{L}{x_{max}-x_{min}} \times 1000
 $$
 
 For a characteristic smoothing timescale of 10 years:
